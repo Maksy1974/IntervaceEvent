@@ -25,5 +25,23 @@
         android:layout_marginTop="15dp"
         android:onClick="clickHello"
         />
+    <Button
+        android:id="@+id/btnKanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnHello"
+        android:layout_below="@id/txtHello"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Kanan"/>
+    <Button
+        android:id="@+id/btnKiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/btnHello"
+        android:layout_below="@id/txtHello"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Kiri"/>
 
 </RelativeLayout>
