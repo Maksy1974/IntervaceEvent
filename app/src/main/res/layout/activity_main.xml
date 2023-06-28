@@ -44,4 +44,13 @@
         android:layout_marginRight="15dp"
         android:text="Kiri"/>
 
+    <EditText
+        android:id="@+id/edtHello"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
 </RelativeLayout>
