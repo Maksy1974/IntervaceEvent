@@ -33,7 +33,7 @@
         android:layout_below="@id/txtHello"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="15dp"
-        android:text="Kanan"/>
+        android:text="Kanan POLIMDO"/>
     <Button
         android:id="@+id/btnKiri"
         android:layout_width="wrap_content"
