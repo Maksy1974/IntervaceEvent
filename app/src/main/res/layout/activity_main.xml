@@ -53,4 +53,77 @@
         android:inputType="textPersonName"
         android:hint="Name" />
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnKiri"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/relFood">
+
+        <CheckBox
+            android:id="@+id/chkNasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Nasi" />
+        <CheckBox
+            android:id="@+id/chkLauk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/chkNasi"
+            android:layout_marginLeft="15dp"
+            android:text="Lauk Pauk" />
+        <CheckBox
+            android:id="@+id/chkSayur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/chkLauk"
+            android:layout_marginLeft="15dp"
+            android:text="Sayur" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relFood"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:id="@+id/rgStatus"
+        >
+        <RadioButton
+            android:id="@+id/rbNikah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Nikah" />
+        <RadioButton
+            android:id="@+id/rbBelumNikah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Belum Nikah" />
+        <RadioButton
+            android:id="@+id/rbDuda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Duda" />
+
+    </RadioGroup>
+    <ProgressBar
+        android:id="@+id/pbHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtHello"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+
+        android:max="100"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="visible"
+        />
+
 </RelativeLayout>
